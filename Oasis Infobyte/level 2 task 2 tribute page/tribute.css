@@ -1,0 +1,31 @@
+body {
+    font-family: "Poppins";
+    text-align: center;
+    margin: 0 80px;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 29%, rgba(27,157,184,1) 100%);
+}
+span{
+    color:rgb(216, 236, 33);
+}
+
+h1 {
+    color: azure;
+    font-size: 45px;
+    font-style: normal;
+    border-radius: 50px;
+    border: 10px;
+}
+
+.paragraph {
+    text-align: center;
+    color: azure;
+    font-family: "san-sarif";
+    font-size: x-large;
+}
+
+.container p {
+    font-family: "Poppins";
+    color: azure;
+    font-size: 25px;
+}

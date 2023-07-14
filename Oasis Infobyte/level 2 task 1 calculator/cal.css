@@ -1,0 +1,66 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.cal {
+    text-align: center;
+    color: rgb(163, 111, 170);
+    font-size: 50px;
+}
+
+.container {
+    display: flexbox;
+    border:5px solid black ;
+    justify-content: center;
+    width: 500px;
+}
+
+.row {
+    text-align: center;
+    margin-top: 10px;
+    margin-block-start: 10px;
+    margin-block: 10px;
+}
+
+.row input {
+    margin: 0;
+text-align: center;
+    padding: 15px 40px 15px;
+    border: 2px solid;
+    border-radius: 7px;
+    font-family: sans-serif;
+
+}
+
+.input {
+    text-decoration: solid rgb(33, 95, 167);
+}
+
+.button {
+    background-color: rgba(116, 23, 204, 0.397);
+    border: black;
+    color: rgb(112, 14, 224);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0 3px;
+    font-family: sans-serif;
+}
+
+.cancel {
+    padding: 10px 60px 10px 60px;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
